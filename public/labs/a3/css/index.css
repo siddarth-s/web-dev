@@ -26,3 +26,9 @@ p#id-selector-2{
     background-color: yellow;
     color: blue;
 }
+
+.fg-color-black { color: black; }
+.fg-color-white { color: white; }
+.fg-color-blue { color: #7070ff; }
+.fg-color-red { color: #ff7070; }
+.fg-color-green { color: green; }
