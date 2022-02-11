@@ -3,10 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>CSS</title>
+
+    <style>
+        p {
+            background-color: blue;
+            color: white;
+        }
+    </style>
 </head>
 <body>
 <h1>Cascading Style Sheet (CSS)</h1>
+
 <h2>Style attribute and tag</h2>
+
 <h3>Style attribute</h3>
 <p style="background-color: blue; color: white">
     Style attribute allows configuring look and feel
@@ -14,5 +23,15 @@
     it is considered bad practice and you should avoid
     using the style attribute
 </p>
+
+<h3>Style tag</h3>
+<p>A slightly better way to configure look and feel
+    is to declare CSS rules in the STYLE tag in the
+    header and then refer to the tag by their name, ID,
+    or class This paragraph's style is set by a rule
+    referring to the P tags
+</p>
+
+
 </body>
 </html>
