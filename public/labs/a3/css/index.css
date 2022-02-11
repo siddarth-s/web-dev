@@ -12,3 +12,8 @@ p#id-selector-2{
     background-color: yellow;
     color: black;
 }
+
+.class-selector {
+    background-color: yellow;
+    color: blue;
+}
