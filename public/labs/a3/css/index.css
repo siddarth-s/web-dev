@@ -132,3 +132,9 @@ p#id-selector-2{
     left: 120px;
 }
 
+.pos-fixed {
+    position: fixed;
+    right: 0px;
+    bottom: 50%;
+}
+
