@@ -50,3 +50,26 @@ p#id-selector-2{
 .border-yellow { border-color: #ffff07; }
 .border-red { border-color: #ff7070; }
 .border-blue { border-color: #7070ff; }
+
+.padded-top-left {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.padded-bottom-right {
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+.padding-fat {
+    padding: 50px;
+}
+
+.margin-bottom {
+    margin-bottom: 50px;
+}
+.margin-right-left {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.margin-all-around {
+    margin: 30px;
+}
