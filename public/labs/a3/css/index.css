@@ -88,3 +88,16 @@ p#id-selector-2{
 .rounded-corners-inline {
     border-radius: 30px 0px 20px 50px;
 }
+
+.dimension-portrait {
+    width: 75px;
+    height: 100px;
+}
+.dimension-landscape {
+    width: 100px;
+    height: 75px;
+}
+.dimension-square {
+    width: 75px;
+    height: 75px;
+}
