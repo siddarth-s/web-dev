@@ -142,3 +142,17 @@ p#id-selector-2{
     z-index: 10;
 }
 
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+    height: 100px;
+}
+.float-done {
+    clear: both;
+}
+
+.min-height-150 {
+    height: 150px;
+}
