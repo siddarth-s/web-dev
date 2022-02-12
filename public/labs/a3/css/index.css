@@ -156,3 +156,32 @@ p#id-selector-2{
 .min-height-150 {
     height: 150px;
 }
+
+.grid-row {
+    clear: both;
+}
+.grid-col-half-page {
+    width: 50%;
+    float: left;
+}
+.grid-col-third-page {
+    width: 33%;
+    float: left;
+}
+.grid-col-two-thirds-page
+{
+    width: 67%;
+    float: left;
+}
+.grid-col-left-sidebar {
+    width: 20%;
+    float: left;
+}
+.grid-col-main-content {
+    width: 60%;
+    float: left;
+}
+.grid-col-right-sidebar {
+    width: 20%;
+    float: left;
+}
