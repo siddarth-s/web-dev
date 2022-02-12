@@ -138,3 +138,7 @@ p#id-selector-2{
     bottom: 50%;
 }
 
+.zindex-bring-to-front {
+    z-index: 10;
+}
+
