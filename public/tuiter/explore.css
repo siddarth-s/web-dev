@@ -14,16 +14,30 @@
     border-radius: 100px;
     border-style: solid;
     border-color: rgb(47, 51, 54);
-    border-width: 2px;
-    height: 30px;
-    width: 85%;
-    background-color: rgb(47, 51, 54);
+    border-width: 1px;
+    height: 35px;
+    width: 88%;
+    background-color: rgb(33, 37, 38);
     padding-left: 45px;
     background-image: url("images/magnify-glass.png");
     background-repeat: no-repeat;
     display: inline-block;
     overflow: hidden;
     background-position-x: 15px;
-    background-position-y: 5px;
+    background-position-y: 8px;
+    float: left;
 
+}
+
+.wd-gear-position{
+    float: right;
+    padding-right: 12px;
+    padding-top: 22px;
+
+}
+
+.wd-exp-search:focus {
+    outline: none !important;
+    border:1px solid rgb(29,161,242);
+    box-shadow: 0 0 10px #719ECE;
 }
