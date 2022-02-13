@@ -1,0 +1,18 @@
+.wd-common-body{
+    background-color: black;
+}
+
+.wd-text-color{
+    color: white;
+}
+
+.wd-center-border{
+    border-left: 2px solid rgb(47, 51, 54);
+    border-right: 2px solid rgb(47, 51, 54);
+    margin-top: -15px;
+    max-width: 600px;
+    min-height: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+

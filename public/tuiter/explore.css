@@ -1,0 +1,29 @@
+.wd-exp-left-offset{
+    margin-left: 16px;
+}
+
+.wd-exp-top-offset{
+    margin-top: 15px;
+}
+
+.wd-exp-right-offset{
+    margin-right: 16px;
+}
+
+.wd-exp-search{
+    border-radius: 100px;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    border-width: 2px;
+    height: 30px;
+    width: 85%;
+    background-color: rgb(47, 51, 54);
+    padding-left: 45px;
+    background-image: url("images/magnify-glass.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    overflow: hidden;
+    background-position-x: 15px;
+    background-position-y: 5px;
+
+}
