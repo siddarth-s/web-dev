@@ -44,14 +44,17 @@
 .wd-links{
     color: rgb(110, 118, 125);
     font-size: 15px;
-    padding: 16px;
     font-family: "Microsoft Sans Serif";
+}
 
+.wd-links{
+    padding: 16px;
 }
 
 .wd-link-container{
     display: flex;
     justify-content: space-between;
 }
+
 
 
