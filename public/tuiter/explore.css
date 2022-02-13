@@ -44,16 +44,55 @@
 .wd-links{
     color: rgb(110, 118, 125);
     font-size: 15px;
+    padding: 16px;
     font-family: "Microsoft Sans Serif";
+    /*border: 2px solid white;*/
 }
 
-.wd-links{
+.wd-padding{
     padding: 16px;
 }
+
 
 .wd-link-container{
     display: flex;
     justify-content: space-between;
+}
+
+.wd-hyperlink{
+    color: rgb(110, 118, 125);
+    text-decoration: none;
+}
+
+.wd-selected{
+    color: rgb(29, 161, 242);
+}
+
+.wd-link-line{
+    border-bottom: 3px solid rgb(29, 161, 242);
+    border-radius: 20px;
+    width: 48px;
+    margin-left: 17px;
+}
+
+.wd-topic-font{
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+    font-family: "Microsoft Sans Serif";
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    padding-right: 16px;
+}
+
+.wd-content-font{
+    font-size: 15px;
+    color: white;
+    font-family: "Microsoft Sans Serif";
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    padding-right: 16px;
 }
 
 

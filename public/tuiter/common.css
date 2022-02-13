@@ -24,7 +24,13 @@
 .wd-tuit-section{
     border-bottom: 1px solid rgb(47, 51, 54);
     max-width: 600px;
-    height: 100px;
+    height: 90px;
+}
+
+.wd-image-section{
+    border-bottom: 1px solid rgb(47, 51, 54);
+    max-width: 600px;
+    height: 140px;
 }
 
 .wd-divider{
