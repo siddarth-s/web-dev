@@ -10,10 +10,39 @@
     border-left: 2px solid rgb(47, 51, 54);
     border-right: 2px solid rgb(47, 51, 54);
     margin-top: -15px;
-    max-width: 600px;
-    min-height: 1500px;
+    max-width: 545px;
+    min-height: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
 
+.wd-small-section-nb{
+    border-bottom: 2px;
+    max-width: 600px;
+}
 
+.wd-tuit-section{
+    border-bottom: 1px solid rgb(47, 51, 54);
+    max-width: 600px;
+    height: 100px;
+}
+
+.wd-divider{
+    border-top: 2px solid rgb(47, 51, 54);
+    border-bottom: 1px solid rgb(47, 51, 54);
+    max-width: 600px;
+    height: 10px;
+    background-color: #16161a;
+}
+
+.wd-float-left{
+    float: left;
+}
+
+.wd-float-right{
+    float: right;
+}
+
+.wd-float-done{
+    clear: both;
+}
