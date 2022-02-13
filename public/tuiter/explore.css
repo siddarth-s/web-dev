@@ -59,9 +59,13 @@
     justify-content: space-between;
 }
 
-.wd-hyperlink{
+.wd-hyperlink-a, .wd-hyperlink-b{
     color: rgb(110, 118, 125);
     text-decoration: none;
+}
+
+.wd-hyperlink-b:hover{
+    color: white;
 }
 
 .wd-selected{
@@ -95,5 +99,26 @@
     padding-right: 16px;
 }
 
+.wd-author-font{
+    font-size: 13px;
+    color: white;
+    font-family: "Microsoft Sans Serif";
+}
 
+.wd-thumbnail{
+    border: solid rgb(47, 51, 54) 0px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 16px;
+}
+
+.wd-small-pic{
+    border: solid rgb(47, 51, 54) 0px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    overflow: hidden;
+}
 

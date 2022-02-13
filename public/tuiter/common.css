@@ -29,8 +29,9 @@
 
 .wd-image-section{
     border-bottom: 1px solid rgb(47, 51, 54);
+    /*padding-top: 16px;*/
     max-width: 600px;
-    height: 140px;
+    height: 120px;
 }
 
 .wd-divider{
@@ -51,4 +52,8 @@
 
 .wd-float-done{
     clear: both;
+}
+
+.wd-fixed-pos{
+    position: -webkit-sticky;
 }
