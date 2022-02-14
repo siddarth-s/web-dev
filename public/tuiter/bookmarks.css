@@ -1,0 +1,33 @@
+.wd-small-section{
+    border-bottom: 1px solid rgb(47, 51, 54);
+    max-width: 600px;
+    height: 58px;
+    margin-bottom: 12px;
+}
+
+.wd-title{
+    padding-top: 12px;
+    padding-bottom: 1px;
+    padding-left: 16px;
+    font-size: 20px;
+    color: white;
+    font-family: "Microsoft Sans Serif";
+}
+
+.wd-user-handle{
+    padding-left: 16px;
+    font-size: 13px;
+    color: rgb(76, 80, 82);
+    font-family: "Microsoft Sans Serif";
+    float: bottom;
+}
+
+.wd-post-container{
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.wd-image-holder{
+
+}
