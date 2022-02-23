@@ -3,7 +3,7 @@
 }
 
 .wd-tab-line-width{
-    width: 96%;
+    width: 98%;
 }
 
 .wd-pad-left-80{
@@ -79,4 +79,11 @@
 .wd-round-img{
     border: none;
     border-radius: 10px;
+}
+
+.wd-circle-img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: none;
 }
