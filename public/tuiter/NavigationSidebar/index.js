@@ -1,95 +1,56 @@
 const NavigationSidebar = () => {
     return(`
-            <div>
-                <ul class="list-group">
-                    <a href="#" class="text-decoration-none text-black">
-                    <li class="list-group-item wd-list-item-ovr">
-                        <i class="wd-li-hover fab fa-twitter fa-2x wd-icon-light wd-icon-fill"></i>
-                    </li>
-                    </a>
-
-                    <a href="#" class="text-decoration-none text-black">
-                    <li class="list-group-item wd-list-item-ovr">
-                        <i class="fa-solid fa-house-chimney wd-icon-light wd-li-hover"></i>
-                        <span class="wd-li-hover wd-icon-fill d-none d-sm-none d-md-none d-lg-none d-xl-inline-flex d-xxl-inline-flex">
-                                Home
-                        </span>
-                    </li>
-                    </a>
-
-                    <a href="#" class="text-decoration-none text-black">
-                    <li class="list-group-item active wd-list-group-act-ovr">
-                            <i class="fa-solid fa-hashtag"></i>
-                            <span class="d-none d-sm-none d-md-none d-lg-none d-xl-inline-flex d-xxl-inline-flex">
-                                Explore
-                        </span>
-                    </li>
-                    </a>
-
-                    <a href="#" class="text-decoration-none text-black">
-                    <li class="list-group-item wd-list-item-ovr">
-                            <i class="wd-li-hover fa-solid fa-bell wd-icon-light"></i>
-                            <span class="wd-li-hover wd-icon-fill d-none d-sm-none d-md-none d-lg-none d-xl-inline-flex d-xxl-inline-flex">
-                                Notifications
-                        </span>
-                    </li>
-                    </a>
-
-                    <a href="#" class="text-decoration-none text-black">
-                        <li class="list-group-item wd-list-item-ovr">
-                            <i class="wd-li-hover fa-solid fa-envelope wd-icon-light"></i>
-                            <span class="wd-li-hover wd-icon-fill d-none d-sm-none d-md-none d-lg-none d-xl-inline-flex d-xxl-inline-flex">
-                                Messages
-                        </span>
-                        </li>
-                    </a>
-
-                    <a href="#" class="text-decoration-none text-black">
-                        <li class="list-group-item wd-list-item-ovr">
-                            <i class="wd-li-hover fa-solid fa-bookmark wd-icon-light"></i>
-                            <span class="wd-li-hover wd-icon-fill d-none d-sm-none d-md-none d-lg-none d-xl-inline-flex d-xxl-inline-flex">
-                                Bookmarks
-                        </span>
-                        </li>
-                    </a>
-
-                    <a href="#" class="text-decoration-none text-black">
-                        <li class="list-group-item wd-list-item-ovr">
-                            <i class="wd-li-hover fa-solid fa-list wd-icon-light"></i>
-                            <span class="wd-li-hover wd-icon-fill d-none d-sm-none d-md-none d-lg-none d-xl-inline-flex d-xxl-inline-flex">
-                                Lists
-                        </span>
-                        </li>
-                    </a>
-
-                    <a href="#" class="text-decoration-none text-black">
-                        <li class="list-group-item wd-list-item-ovr">
-                            <i class="wd-li-hover fa-solid fa-user wd-icon-light"></i>
-                            <span class="wd-li-hover wd-icon-fill d-none d-sm-none d-md-none d-lg-none d-xl-inline-flex d-xxl-inline-flex">
-                                Profile
-                        </span>
-                        </li>
-                    </a>
-
-                    <a href="#" class="text-decoration-none text-black">
-                        <li class="list-group-item wd-list-item-ovr wd-pad-left-3">
-<!--                            <i class="fa-solid fa-ellipsis wd-i-fa"></i>-->
-                            <span class="fa-stack fa-1x">
-                                <i class="fas fa-circle fa-stack-1x wd-icon-light wd-li-hover"></i>
-                                <i class="fas fa-ellipsis-h fa-stack-1x wd-icon-light wd-li-hover"></i>
-                                <span class="wd-li-hover wd-icon-fill wd-pad-left-80 d-none d-sm-none d-md-none d-lg-none d-xl-inline-flex d-xxl-inline-flex">
-                                    More
-                                </span>
-                            </span>
-                        </li>
-                    </a>
-                </ul>
-            </div>
-            <div class="">
-                <button class="btn btn-primary wd-tuit-btn-2 text-center">
-                    Tuit
-                </button>
-            </div>
+        <div>
+            <ul class="list-group">
+                <li class="list-group-item fg-color-white">
+                    <i class="fab fa-twitter"></i>
+                </li>
+                <li class="list-group-item">
+                    <i class="fa-solid fa-house-chimney fg-color-lightgrey"></i>
+                    <span class="d-none d-sm-none d-md-none d-lg-none d-xl-inline d-xxl-inline">
+                    <a href="#" class="wd-icon-fill text-decoration-none">Home</a></span>
+                </li>
+                <li class="list-group-item active">
+                    <i class="fa-solid fa-hashtag fg-color-lightgrey"></i>
+                    <span class="d-none d-sm-none d-md-none d-lg-none d-xl-inline d-xxl-inline">
+                    <a href="#" class="wd-icon-fill text-decoration-none">Explore</a></span>
+                </li>
+                <li class="list-group-item">
+                    <i class="fa-solid fa-bell fg-color-lightgrey"></i>
+                    <span class="d-none d-sm-none d-md-none d-lg-none d-xl-inline d-xxl-inline">
+                    <a href="#" class="wd-icon-fill text-decoration-none">Notifications</a></span>
+                </li>
+                <li class="list-group-item">
+                    <i class="fa-solid fa-envelope fg-color-lightgrey"></i>
+                    <span class="d-none d-sm-none d-md-none d-lg-none d-xl-inline d-xxl-inline">
+                    <a href="#" class="wd-icon-fill text-decoration-none">Messages</a></span>
+                </li>
+                <li class="list-group-item">
+                    <i class="fa-solid fa-bookmark fg-color-lightgrey"></i>
+                    <span class="d-none d-sm-none d-md-none d-lg-none d-xl-inline d-xxl-inline">
+                    <a href="#" class="wd-icon-fill text-decoration-none">Bookmarks</a></span>
+                </li>
+                <li class="list-group-item">
+                    <i class="fa-solid fa-list fg-color-lightgrey"></i>
+                    <span class="d-none d-sm-none d-md-none d-lg-none d-xl-inline d-xxl-inline">
+                    <a href="#" class="wd-icon-fill text-decoration-none">Lists</a></span>
+                </li>
+                <li class="list-group-item">
+                    <i class="fa-solid fa-user fg-color-lightgrey"></i>
+                    <span class="d-none d-sm-none d-md-none d-lg-none d-xl-inline d-xxl-inline">
+                    <a href="#" class="wd-icon-fill text-decoration-none">Profile</a></span>
+                </li>
+                <li class="list-group-item">
+                    <i class="fa-solid fa-ellipsis fg-color-lightgrey"></i>
+                    <span class="d-none d-sm-none d-md-none d-lg-none d-xl-inline d-xxl-inline">
+                    <a href="#" class="wd-icon-fill text-decoration-none">More</a></span>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="d-grid mt-2">
+            <a href="#" class="btn btn-primary btn-block rounded-pill">Tuit</a>
+        </div>
     `);
 }
 export default NavigationSidebar;

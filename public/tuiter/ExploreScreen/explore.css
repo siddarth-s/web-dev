@@ -37,7 +37,7 @@
 }
 
 .list-group-item.active.wd-list-group-act-ovr{
-    background-color: transparent;
+    background-color: #1DA1F2;
     border: transparent;
     color: white;
     font-weight: bold;
@@ -57,7 +57,7 @@
 }
 
 .wd-icon-fill{
-    color: #AAB8C2;
+    color: white;
 }
 
 .wd-white-text{
