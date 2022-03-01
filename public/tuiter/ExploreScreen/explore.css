@@ -50,8 +50,21 @@
     -webkit-text-stroke-color: #AAB8C2;
 }
 
+.wd-icon-blue{
+    /*color: #F5F8FA;*/
+    color: #1DA1F2;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #AAB8C2;
+}
+
 .wd-li-hover:hover{
     color: white;
+    border-width: 1px;
+    border-color: #1DA1F2;
+}
+
+.wd-li-hover-2:hover{
+    color: skyblue;
     border-width: 1px;
     border-color: #1DA1F2;
 }
@@ -169,13 +182,60 @@
 
 .wd-bottom-left{
     position: absolute;
-    bottom: 8px;
+    bottom: 18px;
     left: 16px;
     font-size: x-large;
     color: white;
     font-weight: bold;
     margin-left: -10px;
     margin-bottom: -8px;
+}
+
+.wd-img {
+    width: 100%;
+    position: relative;
+}
+
+.wd-img .wd-overlay {
+    position: absolute;
+    bottom: 0;
+    right: -2%;
+    font-weight: bold;
+    color: #2d2d2d;
+    font-size: xx-large;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.wd-full-width{
+    min-width: 104%;
+    margin-right: -2px;
+}
+
+.wd-post-border{
+    border-width: thin;
+    border-color: #2e2e2f;
+    background-color: #1f1e1e;
+    border-style: solid;
+    border-radius: 1%;
+}
+
+.wd-post-pad{
+    margin-left: 0.2%;
+    margin-right: 0.2%;
+}
+
+.wd-post-bot-border{
+    border-bottom-width: thin;
+    border-bottom-color: #2e2e2f;
+    border-bottom-style: solid;
+    margin-left: 0.2%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+ }
+
+.wd-pad-bot{
+    margin-bottom: 3%;
 }
 
 .wd-content-text{
@@ -186,17 +246,18 @@
 .wd-round-img{
     padding: 0;
     border-radius: 10px;
-    background-color: ghostwhite;
+    background-color: white;
 
 }
 
 .wd-circle-img{
-    width: 55px;
-    height: 55px;
+    max-width: 100%;
+    max-height: 100%;
     border-radius: 50%;
     border: none;
     padding: 0;
 }
+
 
 .wd-right-bg{
     background-color: #25292a;

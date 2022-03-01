@@ -168,7 +168,7 @@
 }
 
 .wd-bottom-left{
-    position: absolute;
+    position: fixed;
     bottom: 8px;
     left: 16px;
     font-size: x-large;
@@ -177,6 +177,18 @@
     margin-left: -10px;
     margin-bottom: -8px;
 }
+
+
+.wd-bottom-left-2{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: x-large;
+    /*color: #16161a;*/
+    color: white;
+    font-weight: bold;
+}
+
 
 .wd-content-text{
     padding-left: -10px;
