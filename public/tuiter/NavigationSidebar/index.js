@@ -10,7 +10,7 @@ const NavigationSidebar = (active) => {
                 <li class="list-group-item ">
                     <i class="fa-solid fa-house-chimney "></i>
                     <span class="d-none d-sm-none d-md-none d-lg-none d-xl-inline d-xxl-inline">
-                    <a href="#" class="wd-icon-fill text-decoration-none">Home</a></span>
+                    <a href="../HomeScreen/index.html" class="wd-icon-fill text-decoration-none">Home</a></span>
                 </li>
                 <li class="list-group-item active">
                     <i class="fa-solid fa-hashtag "></i>
