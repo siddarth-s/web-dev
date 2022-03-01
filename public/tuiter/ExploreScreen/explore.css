@@ -220,6 +220,28 @@
     border-radius: 1%;
 }
 
+
+.wd-post-border-2{
+    border-width: thin;
+    border-color: #4f5257;
+    background-color: #1f1e1e;
+    border-style: solid;
+    border-radius: 1%;
+}
+
+.wd-post-border-3{
+    border-width: thin;
+    border-color: #4f5257;
+    background-color: #1f1e1e;
+    border-style: solid;
+    border-radius: 1%;
+    width: 105%;
+    display: inline-block;
+    padding: 10px;
+    margin-left: -2.60%;
+    border-top-width: 0;
+}
+
 .wd-post-pad{
     margin-left: 0.2%;
     margin-right: 0.2%;
@@ -258,6 +280,13 @@
     padding: 0;
 }
 
+.wd-circle-img-2{
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+}
 
 .wd-right-bg{
     background-color: #25292a;
@@ -292,4 +321,8 @@
     padding-top: 0x;
     border-top: 2px #657786 solid;
     border-bottom: 2px #657786 solid;
+}
+
+.wd-grey-text{
+    color: #6c757d;
 }
