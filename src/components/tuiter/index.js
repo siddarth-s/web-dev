@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import NavigationSidebar from "./NavigationSidebar";
 
 const Tuiter = () => {
     return(
@@ -14,6 +15,8 @@ const Tuiter = () => {
             <Link to = "/">
                 Labs
             </Link>
+
+            <NavigationSidebar active="home"/>
         </>
     )
 };

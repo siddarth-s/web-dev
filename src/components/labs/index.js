@@ -9,10 +9,6 @@ const Labs = () => {
     return(
         <>
             <h1>Labs</h1>
-            <TodoList/>
-            <ConditionalOutput/>
-            <Styles/>
-            <Classes/>
             <Link to="/hello">
                 Hello
             </Link>
@@ -22,8 +18,13 @@ const Labs = () => {
             <Link to = "/tuiter">
                 Tuiter
             </Link>
+            <br/><br/>
+            <TodoList/>
+            <ConditionalOutput/>
+            <Styles/>
+            <Classes/>
         </>
-    )
+    );
 };
 
 export default Labs;
