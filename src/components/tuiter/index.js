@@ -18,7 +18,7 @@ const Tuiter = () => {
 
             <NavigationSidebar active="home"/>
         </>
-    )
+    );
 };
 
 export default Tuiter;
