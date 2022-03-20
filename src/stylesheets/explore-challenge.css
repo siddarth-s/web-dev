@@ -1,0 +1,246 @@
+.nav-link.active.wd-active-ovr{
+    border-bottom-color: #1DA1F2;
+    border-bottom-width: thick;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+    border-bottom-style: inset;
+}
+
+.nav-tabs.wd-nav-ovr{
+    border-bottom-color: transparent;
+}
+
+.nav-link.wd-nav-link-ovr{
+    color: #AAB8C2;
+    border-width: 0;
+}
+
+.nav-link.wd-nav-link-hover-ovr:hover{
+    border-bottom-color: #1DA1F2;
+    border-bottom-width: thick;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-style: inset;
+    color: white;
+    background-color: transparent;
+    font-weight: normal;
+}
+
+.list-group-item.wd-list-item-ovr{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.list-group-item.active.wd-list-group-act-ovr{
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+.wd-icon-light{
+    /*color: #F5F8FA;*/
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #AAB8C2;
+}
+
+.wd-li-hover:hover{
+    color: white;
+    border-width: 1px;
+    border-color: #1DA1F2;
+}
+
+.wd-icon-fill{
+    color: #AAB8C2;
+}
+
+.wd-white-text{
+    color: #F5F8FA;
+}
+
+.wd-white-text-2{
+    color: #c3ccd3;
+}
+
+.wd-bg-black{
+    background-color: #14171A;
+}
+
+.wd-pad-left-3{
+    padding-left: 3%;
+}
+
+.wd-tab-line-width{
+    width: 98%;
+}
+
+.wd-pad-left-80{
+    padding-left: 80%;
+}
+
+.wd-no-padding{
+    padding: 0;
+    margin: 0;
+}
+
+.wd-no-top-padding{
+    padding-top: -10px;
+    margin-top: -8px;
+    border-top-width: 0px;
+}
+
+.wd-margins-main-content{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.btn-primary.wd-tuit-btn{
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 5%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #F5F8FA;
+    color: #14171A;
+    font-weight: bold;
+    border-width: 0;
+}
+
+.wd-tuit-btn:hover{
+    border-color: #1DA1F2;
+    background-color: #1DA1F2;
+}
+
+.btn-primary.wd-tuit-btn-2{
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 5%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #1DA1F2;
+    color: #F5F8FA;
+    font-weight: bold;
+}
+
+.wd-tuit-btn-2:hover{
+    background-color: deepskyblue;
+}
+
+.search{
+    position: relative;
+    /*float: top;*/
+    margin-top: -20px;
+    padding-top: -20px;
+    margin-left: -10px;
+    margin-right: -15px;
+}
+.search input {
+    text-indent: 30px;
+    width: 99%;
+    height: 65%;
+    border-radius: 30px;
+    margin-top: -50px;
+    border-width: 1px;
+    border-color: transparent;
+    background-color: #25292a;
+}
+.search .fa-search {
+    position: relative;
+    top: 24px;
+    left: 7px;
+    font-size: 15px;
+    color: #657786;
+    /*float: top;*/
+}
+
+.wd-search-focus:focus{
+    border-color: #1DA1F2;
+}
+
+.wd-bottom-left{
+    position: fixed;
+    bottom: 8px;
+    left: 16px;
+    font-size: x-large;
+    color: white;
+    font-weight: bold;
+    margin-left: -10px;
+    margin-bottom: -8px;
+}
+
+
+.wd-bottom-left-2{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: x-large;
+    /*color: #16161a;*/
+    color: white;
+    font-weight: bold;
+}
+
+
+.wd-content-text{
+    padding-left: -10px;
+    padding-right: 5%;
+}
+
+.wd-round-img{
+    padding: 0;
+    border-radius: 10px;
+    background-color: ghostwhite;
+
+}
+
+.wd-circle-img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+}
+
+.wd-right-bg{
+    background-color: #25292a;
+    border-radius: 5%;
+}
+
+.wd-borders{
+    border: 1px #657786 solid;
+}
+
+.wd-borders-posts{
+    border-top: 1px #657786 solid;
+}
+
+.wd-border-main{
+    border-left: 2px #657786 solid;
+    border-right: 2px #657786 solid;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: -1px;
+    /*margin-left: -5px;*/
+    /*margin-right: -5px;*/
+}
+
+.img-fluid.wd-remove-pad{
+    padding-left: 0px;
+    padding-right: -5px;
+    margin-left: -0.92%;
+    margin-right: -1.0%;
+    max-width: 102.45%;
+    margin-top: -10px;
+    padding-top: 0x;
+    border-top: 2px #657786 solid;
+    border-bottom: 2px #657786 solid;
+}

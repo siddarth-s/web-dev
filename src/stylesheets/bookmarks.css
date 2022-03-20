@@ -1,0 +1,182 @@
+.wd-center-border-b{
+    border-left: 2px solid rgb(47, 51, 54);
+    border-right: 2px solid rgb(47, 51, 54);
+    margin-top: -15px;
+    max-width: 600px;
+    min-height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wd-small-section{
+    border-bottom: 1px solid rgb(47, 51, 54);
+    max-width: 600px;
+    height: 58px;
+    /*margin-bottom: 12px;*/
+}
+
+.wd-title{
+    padding-top: 12px;
+    padding-bottom: 1px;
+    padding-left: 16px;
+    font-size: 20px;
+    color: white;
+    font-family: "Microsoft Sans Serif";
+}
+
+.wd-user-handle-small, .wd-user-handle-med{
+
+    color: rgb(79, 82, 87);
+    font-family: "Microsoft Sans Serif";
+}
+
+.wd-user-handle-small{
+    padding-left: 16px;
+    font-size: 13px;
+    float: bottom;
+}
+
+.wd-user-handle-med{
+    padding-left: 5px;
+    font-size: 15px;
+    /*padding-top: 12px;*/
+}
+
+.wd-post-container{
+    margin-top: 12px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom:16px;
+    display: inline-flex;
+}
+
+.wd-avatar-image{
+    /*border: 1px solid rgb(47, 51, 54);*/
+    border-radius: 50% ;
+    width: 48px;
+    height: 48px;
+}
+
+.wd-author-name{
+    color: white;
+    font-family: "Microsoft Sans Serif";
+    font-size: 15px;
+    padding-left: 12px;
+    /*padding-top: 12px;*/
+}
+
+.wd-post-para{
+    color: #d0cfcf;
+    font-family: "Microsoft Sans Serif";
+    font-size: 15px;
+    width: 506px;
+    text-align: justify;
+}
+
+.wd-main-content{
+    margin-top: -60px;
+    padding-left: 76px;
+    margin-right: 16px;
+    display: inline-block;
+}
+
+.wd-rounded-image{
+    border: solid rgb(47, 51, 54) 1px;
+    width: 504px;
+    height: 264px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    overflow: hidden;
+    margin-left: 76px;
+}
+
+.wd-bottom-container{
+    margin-top: -5px;
+    padding-top: 0;
+    border: solid rgb(47, 51, 54) 1px;
+    width: 504px;
+    max-height: 150px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 76px;
+}
+
+.wd-bold-title{
+    color: white;
+    font-family: "Microsoft Sans Serif";
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 5px;
+    /*padding-top: 12px;*/
+}
+
+.wd-bottom-text{
+    color: rgb(79, 82, 87);
+    font-family: "Microsoft Sans Serif";
+    font-size: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+}
+
+.wd-no-link{
+    color: rgb(79, 82, 87);
+    text-decoration: none;
+}
+
+.wd-no-link-red{
+    color: red;
+    text-decoration: none;
+}
+
+.wd-icons{
+    /*margin-left: 76px;*/
+    font-size: 25px;
+    /*display: inline-flex;*/
+    color: rgb(79, 82, 87);
+}
+
+.wd-icon-text{
+    color: rgb(79, 82, 87);
+    font-family: "Microsoft Sans Serif";
+    font-size: 13px;
+    padding-left: 12px;
+    /*padding-left: 12px;*/
+    /*padding-right: 12px;*/
+    /*padding-top: 12px;*/
+}
+
+.wd-equal-space{
+    margin-left: 25px;
+    margin-right: 56px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wd-icon-padding{
+    margin-top: 7px;
+}
+
+.wd-icon-padding-b{
+    margin-top: 3px;
+}
+
+.wd-red-font{
+    color: red;
+}
+
+.wd-icon-text-b{
+    font-family: "Microsoft Sans Serif";
+    font-size: 13px;
+    padding-left: 12px;
+}
+
+.wd-hr-line{
+    border: none;
+    height: 1px;
+    background-color: rgb(47, 51, 54);
+    max-width: 600px;
+}

@@ -9,7 +9,7 @@ const HelloWorld = () => {
                 Labs
             </Link>
 
-            <br/>
+            | |
 
             <Link to="/tuiter">
                 Tuiter
