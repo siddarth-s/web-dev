@@ -2,6 +2,7 @@ import React from "react";
 import {Link} from "react-router-dom";
 import NavigationSidebar from "./NavigationSidebar";
 import WhoToFollowListItem from "./WhoToFollowList/WhoToFollowListItem";
+import WhoToFollowList from "./WhoToFollowList";
 
 const Tuiter = () => {
     return(
@@ -18,11 +19,12 @@ const Tuiter = () => {
             </Link>
 
             <NavigationSidebar active="home"/>
-            <WhoToFollowListItem who={{
-                avatarIcon: '/tuiter/images/a4/virg-logo.jpg',
-                userName: 'Virgin Galactic',
-                handle: '@virgingalactic',
-            }}/>
+            {/*<WhoToFollowListItem who={{*/}
+            {/*    avatarIcon: '/tuiter/images/a4/virg-logo.jpg',*/}
+            {/*    userName: 'Virgin Galactic',*/}
+            {/*    handle: '@virgingalactic',*/}
+            {/*}}/>*/}
+            <WhoToFollowList/>
 
         </>
     );
