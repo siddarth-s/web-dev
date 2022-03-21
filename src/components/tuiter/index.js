@@ -3,6 +3,8 @@ import {Link} from "react-router-dom";
 import NavigationSidebar from "./NavigationSidebar";
 import WhoToFollowListItem from "./WhoToFollowList/WhoToFollowListItem";
 import WhoToFollowList from "./WhoToFollowList";
+import PostSummaryItem from "./post-summary-list/PostSummaryItem";
+import PostSummaryList from "./post-summary-list";
 
 const Tuiter = () => {
     return(
@@ -25,6 +27,15 @@ const Tuiter = () => {
             {/*    handle: '@virgingalactic',*/}
             {/*}}/>*/}
             <WhoToFollowList/>
+            {/*<PostSummaryItem post={{*/}
+            {/*    "topic": "Web Development",*/}
+            {/*    "userName": "",*/}
+            {/*    "title": "jQuery",*/}
+            {/*    "time": "last week",*/}
+            {/*    "image": "/tuiter/images/a4/jquery-logo.png",*/}
+            {/*    "tuits": "122K"*/}
+            {/*}}/>*/}
+            <PostSummaryList/>
 
         </>
     );
