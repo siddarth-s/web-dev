@@ -7,6 +7,7 @@ import PostSummaryItem from "./post-summary-list/PostSummaryItem";
 import PostSummaryList from "./post-summary-list";
 
 import ExploreScreen from "./explore-screen/ExploreScreen";
+import HomeScreen from "./home-screen/HomeScreen";
 
 const Tuiter = () => {
     return(
@@ -29,18 +30,20 @@ const Tuiter = () => {
             {/*    "tuits": "122K"*/}
             {/*}}/>*/}
             {/*<PostSummaryList/>*/}
-            {/*<Link to = "/tuiter/explore">*/}
-            <ExploreScreen/>
+
+
+            {/*<ExploreScreen/>*/}
+            {/*<Link to = "/hello">*/}
+            {/*    Hello*/}
             {/*</Link>*/}
-            <Link to = "/hello">
-                Hello
-            </Link>
 
-            |  |
+            {/*|  |*/}
 
-            <Link to = "/">
-                Labs
-            </Link>
+            {/*<Link to = "/">*/}
+            {/*    Labs*/}
+            {/*</Link>*/}
+
+            <HomeScreen/>
 
         </>
     );

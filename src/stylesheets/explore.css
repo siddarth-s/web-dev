@@ -330,3 +330,7 @@
 .wd-pad-top-fix{
     margin-top: -4%;
 }
+
+.wd-no-text-disc{
+    text-decoration: none;
+}
