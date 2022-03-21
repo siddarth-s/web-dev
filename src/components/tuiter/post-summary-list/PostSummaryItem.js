@@ -20,14 +20,23 @@ const PostSummaryItem = (
                     <p className="m-0 fw-bold fg-color-white">{post.userName}
                         {
 
-                            post.userName && <>
+                            post.userName &&
+                            <>
                                 <i className="fa-solid fa-circle-check"></i>
                                 <span className="fw-lighter fg-color-ashgrey"> - {post.time}</span>
+                                <p className="m-0 fw-bold fg-color-white">{post.title}</p>
+
                             </>
                         }
                     </p>
-                    <p className="m-0 fw-bold fg-color-white">{post.title}
-                    {!post.userName && <span className="fw-lighter fg-color-ashgrey"> - {post.time}</span>}</p>
+                    {
+                        !post.userName &&
+                        <>
+                            <i className="fa-solid fa-circle-check"></i>
+                            <span className="fw-lighter fg-color-ashgrey"> - {post.time}</span>
+                            <p className="m-0 fw-bold fg-color-white">{post.title}</p>
+                        </>
+                    }
                     <p className="m-0 fg-color-white">{post.tuits}</p>
                 </div>
                 <div className="col-xxl-3 col-xl-3 col-lg-3 col-sm-3 col-3 mt-1">
