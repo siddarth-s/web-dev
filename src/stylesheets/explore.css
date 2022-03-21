@@ -326,3 +326,7 @@
 .wd-grey-text{
     color: #6c757d;
 }
+
+.wd-pad-top-fix{
+    margin-top: -4%;
+}

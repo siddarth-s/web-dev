@@ -11,6 +11,7 @@ import './stylesheets/bookmarks.css';
 import HelloWorld from "./components/hello-world";
 import Labs from "./components/labs";
 import Tuiter from "./components/tuiter";
+import ExploreScreen from "./components/tuiter/explore-screen/ExploreScreen";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
                   <Route path="/hello" exact={true} element={<HelloWorld/>}/>
                   <Route path="/" exact={true} element={<Labs/>}/>
                   <Route path="/tuiter" exact={true} element={<Tuiter/>}/>
+                  <Route path = "/tuiter/explore" exact={true} element={<ExploreScreen/>}/>
               </Routes>
           </div>
       </BrowserRouter>
