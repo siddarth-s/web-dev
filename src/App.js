@@ -27,18 +27,22 @@ function App() {
       <BrowserRouter>
           <div className="container">
               <Routes>
-                  <Route path="/hello" exact={true} element={<HelloWorld/>}/>
-                  <Route path="/" exact={true} element={<Labs/>}/>
-                  <Route path="/tuiter" exact={true} element={<Tuiter/>}/>
-                  <Route path="/tuiter/home" element={<HomeScreen/>}/>
-                  <Route path="/tuiter/explore" element={<ExploreScreen/>}/>
-                  <Route path="/tuiter/notifications" element={<NotificationsScreen/>}/>
-                  <Route path="/tuiter/messages" element={<MessagesScreen/>}/>
-                  <Route path="/tuiter/bookmarks" element={<BookmarksScreen/>}/>
-                  <Route path="/tuiter/lists" element={<ListsScreen/>}/>
-                  <Route path="/tuiter/profile" element={<ProfileScreen/>}/>
-                  <Route path="/tuiter/more" element={<MoreScreen/>}/>
-
+                  <Route path="/">
+                      <Route index element={<Labs/>}/>
+                      <Route path="labs" exact={true} element={<Labs />} />
+                      <Route path="hello" element={<HelloWorld />}/>
+                      <Route path="tuiter" element={<Tuiter />}>
+                          <Route index element={<HomeScreen />}/>
+                          <Route path="home" element={<HomeScreen />}/>
+                          <Route path="explore" element={<ExploreScreen />}/>
+                          <Route path="notifications" element={<NotificationsScreen />}/>
+                          <Route path="messages" element={<MessagesScreen />}/>
+                          <Route path="bookmarks" element={<BookmarksScreen />}/>
+                          <Route path="lists" element={<ListsScreen />}/>
+                          <Route path="profile" element={<ProfileScreen />}/>
+                          <Route path="more" element={<MoreScreen />}/>
+                      </Route>
+                  </Route>
               </Routes>
           </div>
       </BrowserRouter>

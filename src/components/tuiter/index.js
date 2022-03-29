@@ -1,50 +1,26 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import {Outlet} from "react-router-dom";
 import NavigationSidebar from "./NavigationSidebar";
-import WhoToFollowListItem from "./WhoToFollowList/WhoToFollowListItem";
-import WhoToFollowList from "./WhoToFollowList";
-import PostSummaryItem from "./post-summary-list/PostSummaryItem";
-import PostSummaryList from "./post-summary-list";
-
-import ExploreScreen from "./explore-screen/ExploreScreen";
-import HomeScreen from "./home-screen/HomeScreen";
+import PostList from "./post-list";
+import ExploreComponent from "./home-screen/ExploreComponent2";
 
 const Tuiter = () => {
     return(
         <>
-            {/*<h1>Tuiter</h1>*/}
+            <div className="row mt-2">
 
-            {/*<NavigationSidebar active="home"/>*/}
-            {/*<WhoToFollowListItem who={{*/}
-            {/*    avatarIcon: '/tuiter/images/a4/virg-logo.jpg',*/}
-            {/*    userName: 'Virgin Galactic',*/}
-            {/*    handle: '@virgingalactic',*/}
-            {/*}}/>*/}
-            {/*<WhoToFollowList/>*/}
-            {/*<PostSummaryItem post={{*/}
-            {/*    "topic": "Web Development",*/}
-            {/*    "userName": "",*/}
-            {/*    "title": "jQuery",*/}
-            {/*    "time": "last week",*/}
-            {/*    "image": "/tuiter/images/a4/jquery-logo.png",*/}
-            {/*    "tuits": "122K"*/}
-            {/*}}/>*/}
-            {/*<PostSummaryList/>*/}
+                <div className="col-3 col-sm-3 col-md-2 col-lg-1 col-xl-2 col-xxl-2">
+                    <NavigationSidebar active="home"/>
+                </div>
 
+                <div className="col-9 col-sm-9 col-md-10 col-lg-7 col-xl-6 col-xxl-6">
+                        <Outlet/>
+                </div>
 
-            {/*<ExploreScreen/>*/}
-            {/*<Link to = "/hello">*/}
-            {/*    Hello*/}
-            {/*</Link>*/}
-
-            {/*|  |*/}
-
-            {/*<Link to = "/">*/}
-            {/*    Labs*/}
-            {/*</Link>*/}
-
-            <HomeScreen/>
-
+                <div className="ms-0 ps-2 d-none d-lg-block col-lg-4 col-xl-4 col-xxl-4">
+                    <h2>Who to follow</h2>
+                </div>
+            </div>
         </>
     );
 };
