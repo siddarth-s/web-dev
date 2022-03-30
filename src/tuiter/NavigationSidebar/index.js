@@ -63,7 +63,7 @@ const NavigationSidebar = (
                     </Link>
 
                     <Link to="/tuiter/profile" style={{ textDecoration: 'none' }}>
-                    <li className={`list-group-item ${activelink === 'profile' ? 'active' : ''}`}>
+                    <li className={`list-group-item ${activelink === 'profile' ? 'active' : ''} ${activelink === 'editprofile' ? 'active' : ''}`}>
                         <a className="wd-icon-fill text-decoration-none"><i className="fa-solid fa-user "></i>
                         <span className="d-none d-sm-none d-md-none d-lg-none d-xl-inline d-xxl-inline"> Profile</span></a>
                     </li>
