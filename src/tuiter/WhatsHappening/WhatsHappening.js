@@ -31,10 +31,10 @@ const WhatsHappening = () => {
                         </div>
                         <div className="row pt-3"></div>
                         <div className="row mt-3 mb-3">
-                            <div className="col-1 ps-0 fg-color-2a9fd6"><i className="fa-regular fa-image wd-icon-blue"></i></div>
-                            <div className="col-1 ps-0 fg-color-2a9fd6"><i className="fa-solid fa-chart-column wd-icon-blue"></i></div>
-                            <div className="col-1 ps-0 fg-color-2a9fd6"><i className="fa-regular fa-face-smile wd-icon-blue"></i></div>
-                            <div className="col-1 ps-0 fg-color-2a9fd6"><i className="fa-regular fa-calendar wd-icon-blue"></i></div>
+                            <div className="col-1 ps-0 fg-color-2a9fd6"><i className="fa-regular fa-image text-primary"></i></div>
+                            <div className="col-1 ps-0 fg-color-2a9fd6"><i className="fa-solid fa-chart-column text-primary"></i></div>
+                            <div className="col-1 ps-0 fg-color-2a9fd6"><i className="fa-regular fa-face-smile text-primary"></i></div>
+                            <div className="col-1 ps-0 fg-color-2a9fd6"><i className="fa-regular fa-calendar text-primary"></i></div>
                             <div className="col-5"></div>
                             <div className="col-3 mt-1 pe-0">
                                 <button className="btn btn-primary wd-tuit-btn-2 text-center override-button" onClick={tuitClickHandler}>

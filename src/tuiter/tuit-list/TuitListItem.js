@@ -52,7 +52,6 @@ const TuitListItem = ({tuits}) => {
                             }
                         </div>
 
-                        {/* Update tuits here! */}
                         <TuitStat tuits={tuits}/>
 
                     </div>

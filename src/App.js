@@ -19,8 +19,10 @@ import NotificationsScreen from "./components/tuiter/other-pages/notifications";
 import MessagesScreen from "./components/tuiter/other-pages/messages";
 import BookmarksScreen from "./components/tuiter/other-pages/bookmarks";
 import ListsScreen from "./components/tuiter/other-pages/lists";
-import ProfileScreen from "./components/tuiter/other-pages/profile";
+// import ProfileScreen from "./components/tuiter/other-pages/profile";
 import MoreScreen from "./components/tuiter/other-pages/more";
+import EditProfileList from "./tuiter/ProfileScreen/EditProfileList";
+import ProfileList from "./tuiter/ProfileScreen";
 
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 
@@ -41,7 +43,8 @@ function App() {
                           <Route path="messages" element={<MessagesScreen />}/>
                           <Route path="bookmarks" element={<BookmarksScreen />}/>
                           <Route path="lists" element={<ListsScreen />}/>
-                          <Route path="profile" element={<ProfileScreen />}/>
+                          <Route path="profile" element={<ProfileList />}/>
+                          <Route path="profile/editprofile" element={<EditProfileList />}/>
                           <Route path="more" element={<MoreScreen />}/>
                       </Route>
                   </Route>

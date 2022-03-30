@@ -6,9 +6,9 @@ import NavigationSidebar from "./NavigationSidebar";
 import WhoToFollowList from "./WhoToFollowList";
 import whoReducer from "./reducers/who-reducer";
 import tuitsReducer from "./reducers/tuits-reducer";
-// import profileReducer from "./reducers/profile-reducer";
+import profileReducer from "./reducers/profile-reducer";
 
-const reducers = combineReducers({who:whoReducer, tuits: tuitsReducer});
+const reducers = combineReducers({who:whoReducer, tuits: tuitsReducer, profile:profileReducer});
 const store = createStore(reducers);
 
 const Tuiter = () => {
