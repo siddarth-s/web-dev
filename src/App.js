@@ -10,9 +10,11 @@ import './stylesheets/bookmarks.css';
 
 import HelloWorld from "./components/hello-world";
 import Labs from "./components/labs";
-import Tuiter from "./components/tuiter";
-import ExploreScreen from "./components/tuiter/explore-screen/ExploreScreen";
-import HomeScreen from "./components/tuiter/home-screen/HomeScreen";
+
+import Tuiter from "./tuiter";
+import ExploreScreen from "./tuiter/ExploreScreen/ExploreScreen";
+import HomeScreen from "./tuiter/HomeScreen/HomeScreen";
+
 import NotificationsScreen from "./components/tuiter/other-pages/notifications";
 import MessagesScreen from "./components/tuiter/other-pages/messages";
 import BookmarksScreen from "./components/tuiter/other-pages/bookmarks";

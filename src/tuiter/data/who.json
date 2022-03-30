@@ -1,0 +1,31 @@
+[
+    { "avatarIcon": "/tuiter/images/a4/java-logo.png",
+        "userName": "Java",
+        "handle": "@Java",
+        "_id": "1"
+    },
+    
+    { "avatarIcon": "/tuiter/images/a4/rel-space.jfif",
+        "userName": "Relativity Space",
+        "handle": "@relativityspace",
+        "_id": "2"
+    },
+    
+    { "avatarIcon": "/tuiter/images/a4/virg-logo.jpg",
+        "userName": "Virgin Galactic",
+        "handle": "@virgingalactic",
+        "_id": "3"
+    },
+    
+    { "avatarIcon": "/tuiter/images/a4/nasa-logo.png",
+        "userName": "NASA",
+        "handle": "@NASA",
+        "_id": "4"
+    },
+    
+    { "avatarIcon": "/tuiter/images/a4/tesla-logo.jpg",
+        "userName": "Tesla", 
+        "handle": "@Tesla",
+        "_id": "5"
+    } 
+]

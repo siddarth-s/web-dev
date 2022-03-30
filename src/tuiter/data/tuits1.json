@@ -1,0 +1,86 @@
+[
+  {
+    "_id": "1",
+    "topic": "Web Development",
+    "username": "ReactJS",
+    "liked": true,
+    "verified": false,
+    "handle": "@ReactJS",
+    "time": "2h",
+    "title": "React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs",
+    "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "attachments": {
+      "video": "https://www.youtube.com/embed/w7ejDZ8SWv8"
+    },
+    "logoImage": "/tuiter/images/a4/react-thumb.svg",
+    "avatarIcon": "/tuiter/images/a4/react-thumb.svg",
+    "comments": 123,
+    "retuits": 234,
+    "likes": 345,
+    "sequence": "first"
+  },
+  {
+    "_id": "2",
+    "topic": "Nasa",
+    "username": "Nasa",
+    "liked": false,
+    "verified": false,
+    "handle": "@nasa",
+    "title": "",
+    "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "attachments": {
+      "image": "/tuiter/images/a4/starship-img.jpg"
+    },
+    "time": "last month",
+    "logoImage": "/tuiter/images/a4/nasa-logo.jpg",
+    "avatarIcon": "/tuiter/images/a4/nasa-logo.png",
+    "tuits": "120K",
+    "comments": 45,
+    "retuits": 65,
+    "likes": 1234,
+    "sequence":  "middle"
+  },
+
+  {
+    "_id": "3",
+    "topic": "Web Development",
+    "username": "jQuery",
+    "liked": false,
+    "verified": false,
+    "handle": "@jQuery",
+    "title": "jQuery",
+    "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "attachments": {
+      "video": "https://www.youtube.com/embed/3nrLc_JOF7k"
+    },
+    "time": "last week",
+    "logoImage": "/tuiter/images/a4/jquery-logo.png",
+    "avatarIcon": "/tuiter/images/a4/jquery-logo.png",
+    "tuits": "122K",
+    "comments": 8,
+    "retuits": 7812,
+    "likes": 34,
+    "sequence":  "middle"
+  },
+  {
+    "_id": "4",
+    "topic": "Web Development",
+    "username": "NodeJS",
+    "liked": true,
+    "verified": true,
+    "handle": "@NodeJS",
+    "title": "",
+    "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "attachments": {
+      "video": "https://www.youtube.com/embed/ENrzD9HAZK4"
+    },
+    "time": "last month",
+    "logoImage": "/tuiter/images/a4/nodejs-logo.png",
+    "avatarIcon": "/tuiter/images/a4/nodejs-logo.png",
+    "tuits": "120K",
+    "comments": 5689,
+    "retuits": 2081,
+    "likes": 1098,
+    "sequence": "last"
+  }
+]
