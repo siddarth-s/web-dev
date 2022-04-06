@@ -1,15 +1,18 @@
 import React, {useState} from "react";
 import {useDispatch} from "react-redux";
+import {createTuit, deleteTuit} from "../../actions/tuits-actions";
 
 const WhatsHappening = () => {
-    let [whatsHappening, setWhatsHappening] = useState('');
+    // let [whatsHappening, setWhatsHappening] = useState('');
+
+    const [newTuit, setNewTuit] = useState({tuit: 'New tuit'});
     const dispatch = useDispatch();
 
-    const tuitClickHandler = () => {
-        dispatch({type: 'create-tuit',
-            tuit: whatsHappening
-        });
-    }
+    // const tuitClickHandler = () => {
+    //     dispatch({type: 'create-tuit',
+    //         tuit: whatsHappening
+    //     });
+    // }
 
     return(
         <>
@@ -24,10 +27,15 @@ const WhatsHappening = () => {
 
                         </div>
                         <div className="row">
+                            {/*<textarea className="bg-black wd-white-text wd-post-border"*/}
+                            {/*          placeholder="What's happening?"*/}
+                            {/*          value={whatsHappening}*/}
+                            {/*          onChange={(event) => setWhatsHappening(event.target.value)}></textarea>*/}
+
                             <textarea className="bg-black wd-white-text wd-post-border"
                                       placeholder="What's happening?"
-                                      value={whatsHappening}
-                                      onChange={(event) => setWhatsHappening(event.target.value)}></textarea>
+                                      onChange={(event) => setNewTuit({...newTuit, tuit: event.target.value})}>
+                            </textarea>
                         </div>
                         <div className="row pt-3"></div>
                         <div className="row mt-3 mb-3">
@@ -37,7 +45,8 @@ const WhatsHappening = () => {
                             <div className="col-1 ps-0 fg-color-2a9fd6"><i className="fa-regular fa-calendar text-primary"></i></div>
                             <div className="col-5"></div>
                             <div className="col-3 mt-1 pe-0">
-                                <button className="btn btn-primary wd-tuit-btn-2 text-center override-button" onClick={tuitClickHandler}>
+                                {/*<button className="btn btn-primary wd-tuit-btn-2 text-center override-button" onClick={tuitClickHandler}>*/}
+                                <button className="btn btn-primary wd-tuit-btn-2 text-center override-button" onClick={() => createTuit(dispatch, newTuit)}>
                                     <span className="wd-small-fontsize">Tuit</span>
                                 </button>
                             </div>
