@@ -1,18 +1,24 @@
 import React, {useState} from "react";
 import {useDispatch} from "react-redux";
-import {createTuit, deleteTuit} from "../../actions/tuits-actions";
+import {createTuit} from "../../actions/tuits-actions";
 
 const WhatsHappening = () => {
-    // let [whatsHappening, setWhatsHappening] = useState('');
 
-    const [newTuit, setNewTuit] = useState({tuit: 'New tuit'});
+    const [newTuit, setNewTuit] = useState({
+        postedBy: {
+            username: "Elon Musk"
+        },
+        handle: " @elon",
+        tuit: "New Post",
+        likes: 0,
+        dislikes: 0,
+        attachments: {
+            image: "/tuiter/images/insp4.jpg",
+            video: ""
+        },
+        avatarIcon: "/tuiter/images/musk-dp.jpg"
+    });
     const dispatch = useDispatch();
-
-    // const tuitClickHandler = () => {
-    //     dispatch({type: 'create-tuit',
-    //         tuit: whatsHappening
-    //     });
-    // }
 
     return(
         <>
